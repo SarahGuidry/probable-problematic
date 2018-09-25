@@ -1,93 +1,38 @@
 <!DOCTYPE html>
-<html>
-      <head>
-	 <meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, 	shrink-to-fit=no">
-
-            <title>Burgatory</title>
-                  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-			
-		<link href="restaurantStyles.css" rel="stylesheet" type="text/css"/>
-		 <!-- Bootstrap CDN copied from https://getbootstrap.com/docs/4.1/getting-started/introduction/ -->
-            <style>
-		
-		#main {
-			background-color: #871c00;
-			font-color:black;
-			}
-		a {
-			font-color: red;
-			font-family: monospace;
-			font-size: 15px;
-    			}
-		a:visited{
-			color: black;
-			}
-		a:hover {
-			font-weight: bold;
-			}
-		a:active {
-			text-decoration:none;
-			}
-		 nav {
-			border-top: thin #871c00 solid;
-			border-bottom: thin #871c00 solid;
-			padding-top: 12px;
-			padding-bottom: 12px;
-			}    
-    
-		nav .btn {
-			background-color: #871c00;
-			color: #fef9ff; 
-			}
-    
-		nav .btn:hover {
-			font-weight: bold;
-			}    
-            </style>
-      </head>
-      <body>
-	<div class="container">
-		<header class="jumbotron" style="background-color: #871c00">
-			<h1>Burgatory</h1>
-			<h1>New location coming soon!!</h1>
-		  </header>
-            
-            <nav>
-		<a class="btn badge-pill" href="index.html" target="_blank">Home</a>
-		<a class="btn badge-pill" href="menu.html" target="_blank">Menu</a>
-		<a class="btn badge-pill" href="contactUs.html" target="_blank">Contact Us</a>
-            </nav>
+<html lang="en">
+	<head>
+		<title>Corner Cafe</title>
+	</head>
 	
-
+	<body>
+		<header>
+			<h1 style="text-align:center">Corner Cafe</h1>
+		</header>
 		
-		<hr/>
-            <div id="main">
-                  <div id="logo" style="text-align:center">
-                        <img src="burgatory.jpg" width="800px" height="450px" alt="Burgatory logo" />
-                  </div>
-                  <div id="description" style="text-align:center" >
-                        <h2><em>About Us</em></h2>
-                        <p>Burgatory is a hot spot with cool shakes. We don't serve frozen processed stuff here.<br/>
-                        We work with local dairies, growers, butchers and bakers who care as much as we do about doing things right. 
-                        <br/>So, whether you’re digging into one of our custom burgers or slurping one of our ridiculously thick shakes,<br/>
-                        we're going to bring you a dining experience that's pretty close to heaven.<br/>
-                        <br/>
-                        <b>Enjoy your stay in Burgatory.</b>
-                        </p>
-                  </div>
-                  <hr/>
-            </div>       
-            <div id="footer" >
-                        <footer>123 Made Up Street<br/>
-                        Louisville, KY 12345<br/>
-                        (502) BURGERS<br/>
-                        (502) 287-4377
-                        </footer>
-                  </div>
-	</div>
-	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-      </body>
+		<nav>
+			<hr/>
+			<p><a href="index.html">Home</a><a href="menu.html">Menu</a><a href="contact.html">Contact Us</a></p>
+			<hr/>
+		</nav>
+		
+		<section>
+			<article id="photo">
+				<img src="images/java.jpg" alt="Photo of cup of coffee" style="width:500px;height:350px" />
+			</article>
+			
+			<article id="description">
+				<p style="text-align:center">restaurant descreption here</p>
+			</article>
+		</section>
+		
+		<footer>
+			<hr/>
+			<p style="text-align:center">123 Main Street<br />
+			Some City, KY 40205<br/>
+			(888) 888-CAFE(2233)</p>
+			
+			<p style="font-size:75%">Photo by Kaboompics .com from Pexels</p>
+		</footer>
+	
+	</body>
 </html>
